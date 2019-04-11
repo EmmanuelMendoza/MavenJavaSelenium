@@ -40,7 +40,7 @@ public class SearchTest extends BaseClass {
         Assert.assertTrue(rp.getSearchTermFromResultsLabel().contains(TestData.searchTerm));
     }
 
-    @Test(enabled = true, priority = 3)
+    @Test(enabled = false, priority = 3)
     public void FailedTest() {
         rp.searchProductAllDepartments(TestData.searchTerm);
         Assert.assertTrue(rp.getSearchTermFromResultsLabel().contains("NonExistingString"));
