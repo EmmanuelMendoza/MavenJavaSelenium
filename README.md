@@ -1,7 +1,7 @@
 # MavenJavaSeleniumCucumber
 Contains a hybrid automation framework using Java, Maven and Selenium
 
-## Design patters:
+## Design patterns:
 - Page Object Model
 - Page Factory
 
